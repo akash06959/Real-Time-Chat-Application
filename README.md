@@ -1,5 +1,8 @@
 # Real-Time Chat Application (ChatStream)
 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://real-time-chat-application-yndi.onrender.com)
+**Live Link:** [https://real-time-chat-application-yndi.onrender.com](https://real-time-chat-application-yndi.onrender.com)
+
 ## 🚀 How to Start the Project
 
 This project consists of two parts: the **Server** (Backend) and the **Client** (Frontend). You need to run both simultaneously.
