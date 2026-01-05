@@ -1,0 +1,12 @@
+{
+    "name": "chat-stream-root",
+    "version": "1.0.0",
+    "description": "Root script to run both client and server",
+    "scripts": {
+        "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+        "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\" --names \"SERVER,CLIENT\" --prefix-colors \"blue,magenta\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
